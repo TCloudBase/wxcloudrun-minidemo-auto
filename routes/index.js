@@ -16,6 +16,13 @@ router.get('/', async function (req, res, next) {
   }
 })
 
+router.get('/test', async function (req, res, next) {
+  res.json({
+    env: process.env,
+    req: req.headers
+  })
+})
+
 router.post('/get', async function (req, res, next) {
   const r = await mysql.query('SELECT  COUNT(*) id FROM  app_express')
   if (r !== -1) {
