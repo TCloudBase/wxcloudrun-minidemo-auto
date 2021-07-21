@@ -17,9 +17,10 @@ router.get('/', async function (req, res, next) {
 })
 
 router.get('/test', async function (req, res, next) {
+  const { baseUrl, originalUrl, params, query, url, method, headers } = req
   res.json({
     env: process.env,
-    req: req.headers
+    req: { baseUrl, originalUrl, params, query, url, method, headers }
   })
 })
 
