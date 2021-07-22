@@ -1,6 +1,6 @@
 # 微信云托管｜极简示例模版
 
-**支持微信云托管一键部署**
+[<img src="https://main.qcloudimg.com/raw/ffa781b63fdead4cac23470ad2eeb552.png" width="220px">]()
 
 ## 项目介绍
 
@@ -17,6 +17,8 @@
 - 一键部署方式：点击此链接跳转至控制台安装【敬请期待】
 
 - 手动部署方式：前往[源仓库](https://github.com/TCloudBase/wxcloudrun_minidemo)查看部署流程
+
+- 注意：此仓库部分代码逻辑经过处理，请不要直接用此仓库代码自行操作部署，如果自行尝试请使用源仓库
 
 ## 项目总结
 

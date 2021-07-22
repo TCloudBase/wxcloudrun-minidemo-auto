@@ -10,17 +10,16 @@ router.get('/', async function (req, res, next) {
     })
   } else {
     res.json({
-      env: process.env,
-      req: req.headers
+      env: process.env
     })
   }
 })
 
 router.get('/test', async function (req, res, next) {
-  const { baseUrl, originalUrl, params, query, url, method, headers } = req
+  const { params, query, url, method, headers } = req
   res.json({
     env: process.env,
-    req: { baseUrl, originalUrl, params, query, url, method, headers }
+    req: { params, query, url, method, headers }
   })
 })
 
@@ -32,8 +31,7 @@ router.post('/get', async function (req, res, next) {
     })
   } else {
     res.json({
-      env: process.env,
-      req: req.headers
+      env: process.env
     })
   }
 })
