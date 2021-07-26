@@ -1,6 +1,6 @@
 # 微信云托管｜极简示例模版
 
-[<img src="https://main.qcloudimg.com/raw/ffa781b63fdead4cac23470ad2eeb552.png" width="220px">]()
+[<img src="https://main.qcloudimg.com/raw/ffa781b63fdead4cac23470ad2eeb552.png" width="220px">](https://cloud.weixin.qq.com/cloudrun/onekey?template=minidemo)
 
 ## 项目介绍
 
@@ -14,7 +14,7 @@
 
 ## 部署流程
 
-- 一键部署方式：点击此链接跳转至控制台安装【敬请期待】
+- 一键部署方式：点击[此链接](https://cloud.weixin.qq.com/cloudrun/onekey?template=minidemo)跳转至控制台安装
 
 - 手动部署方式：前往[源仓库](https://github.com/TCloudBase/wxcloudrun_minidemo)查看部署流程
 
